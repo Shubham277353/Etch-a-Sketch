@@ -25,6 +25,7 @@ body{
     width: 500px;
     margin-left: 40rem;
     margin-top: 1rem;
+    border: 8px solid black;
 }
 
 .squares{
@@ -39,6 +40,7 @@ body{
     align-items: center;
     gap: 4px;
     position: relative;
+    margin-left: 160px;
 }
 
 .inputs{
@@ -48,11 +50,34 @@ body{
     width: 60px;
     font-size: 1rem;
 }
+#createButton{
+    color: white;
+    font-weight: 700;
+    background-color: greenyellow;
+}
 
 #reset {
     margin-left: 50px;
+    color: white;
+    font-weight: 700;
+    background-color: red;
 }
 
 #gridSize{
     padding-left: 8px;
+}
+
+#shade {
+    width: 75px;
+    color: white;
+    font-weight: 700;
+    background-color: grey;
+}
+
+#rainbow {
+    width: 80px;
+    color: white;
+    font-weight: 700;
+    background-image: url(/Etch-a-Sketch/images/rainbow.jpg);
+    background-size: cover;
 }
